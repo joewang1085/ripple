@@ -12,8 +12,8 @@ func main() {
 	app := ripple.NewApplication()
 	// Create a controller and register it. Any number of controllers
 	// can be registered that way.
-	grasperController := controllers.NewGrasperController()
-	app.RegisterController("grasper", grasperController)
+	appController := controllers.NewAppController()
+	app.RegisterController("appName", appController)
 	// Setup the routes. The special patterns `_controller` will automatically match
 	// an existing controller, as defined above. Likewise, `_action` will match any
 	// existing action.
