@@ -1,0 +1,24 @@
+项目目录结构：
+APP{
+    appName{
+            main.go
+            }
+    controllers{
+                appController.go
+                }
+    domain{
+          model{
+                newParam.go
+                }
+          service{
+                  test.go
+                  }
+          }
+    github.com{
+              ripple{
+                    ripple.go
+                    }
+              }      
+              ...
+    
+    }
